@@ -1,5 +1,5 @@
 // Загрузка списка аниме из другого репозитория
-const ANIME_LIST_URL = 'https://raw.githubusercontent.com/[ваш-username]/re-voice-anime-list/main/anime-list.json';
+const ANIME_LIST_URL = 'https://raw.githubusercontent.com/Akrifis/Uggiiggu/main/anime.json';
 
 async function loadAnimeList() {
     try {
