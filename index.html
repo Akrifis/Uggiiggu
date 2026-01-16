@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RE:Voice Anime</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-play-circle"></i> RE:Voice Anime</h1>
+                <p>Команда RE:Voice представляет</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Главная</a></li>
+                    <li><a href="#anime-list">Аниме</a></li>
+                    <li><a href="#about">О проекте</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Смотрите аниме в высоком качестве</h2>
+            <p>Только легальный контент от команды RE:Voice</p>
+        </section>
+
+        <section id="anime-list" class="anime-section">
+            <h2><i class="fas fa-film"></i> Список аниме</h2>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Поиск аниме...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="anime-grid" id="animeContainer">
+                <!-- Аниме загружается динамически -->
+            </div>
+        </section>
+
+        <section id="player-section" class="player-section">
+            <h2><i class="fas fa-play"></i> Плеер</h2>
+            <div class="player-placeholder">
+                <p>Выберите аниме для просмотра</p>
+                <i class="fas fa-video"></i>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>О проекте RE:Voice</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Этот проект создан командой RE:Voice для предоставления качественного аниме-контента.</p>
+                    <p>Все видео материалы используются в образовательных целях.</p>
+                </div>
+                <div class="github-link">
+                    <a href="https://github.com/re-voice" target="_blank">
+                        <i class="fab fa-github"></i> Наш GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 RE:Voice Anime Project. Все права защищены.</p>
+            <p class="disclaimer">Это демонстрационный проект. Для реального использования необходим легальный контент.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
