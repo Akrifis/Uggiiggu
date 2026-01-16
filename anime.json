@@ -1,80 +1,68 @@
-{
-  "metadata": {
-    "last_updated": "2023-10-15T14:30:00Z",
-    "total_anime": 6,
-    "total_episodes": 250,
-    "version": "1.0",
-    "author": "Ваше имя",
-    "description": "Каталог аниме для сайта AnimeHub"
-  },
-  "anime_list": [
+[
     {
-      "id": 1,
-      "title": "Атака на Титанов",
-      "original_title": "Shingeki no Kyojin",
-      "description": "Человечество живёт в городах, окружённых тремя гигантскими стенами, защищающими их от титанов — огромных существ, пожирающих людей.",
-      "poster": "https://example.com/posters/attack-on-titan.jpg",
-      "year": 2013,
-      "seasons": 4,
-      "episodes": 75,
-      "status": "Завершён",
-      "type": "TV Сериал",
-      "studio": "Wit Studio, MAPPA",
-      "genre": ["Экшен", "Драма", "Фэнтези", "Сёнэн"],
-      "rating": 9.0,
-      "age_rating": "R-17",
-      "duration": "24 мин.",
-      "episodes_list": [
-        {
-          "id": 1,
-          "title": "К вам, 2000 лет спустя",
-          "description": "Эрен Йегер живёт в городе, защищённом гигантскими стенами от титанов.",
-          "kodik_link": "https://kodik.info/serial/12345/abcdef123456/720p",
-          "duration": "23:45",
-          "quality": ["720p", "1080p"],
-          "dubbing": ["Русская", "Японская"],
-          "subtitles": true
-        },
-        {
-          "id": 2,
-          "title": "В тот день",
-          "description": "После разрушения стены титаны врываются в город.",
-          "kodik_link": "https://kodik.info/serial/12345/ghijkl789012/720p",
-          "duration": "24:10",
-          "quality": ["720p", "1080p"],
-          "dubbing": ["Русская", "Японская"],
-          "subtitles": true
-        }
-      ]
+        "id": 1,
+        "title": "Наруто",
+        "description": "История о юном ниндзя Наруто Узумаки, который мечтает стать Хокаге - лидером своей деревни.",
+        "poster": "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        "rating": 8.3,
+        "year": 2002,
+        "genre": ["Экшен", "Приключения", "Комедия"],
+        "episodes": 220,
+        "video_url": "https://example.com/videos/naruto.mp4"
     },
     {
-      "id": 2,
-      "title": "Магическая битва",
-      "original_title": "Jujutsu Kaisen",
-      "description": "Юдзи Итадори вступает в таинственный мир магов-экзорцистов после того, как съедает палец проклятия.",
-      "poster": "https://example.com/posters/jujutsu-kaisen.jpg",
-      "year": 2020,
-      "seasons": 2,
-      "episodes": 47,
-      "status": "Онгоинг",
-      "type": "TV Сериал",
-      "studio": "MAPPA",
-      "genre": ["Экшен", "Сверхъестественное", "Драма", "Сёнэн"],
-      "rating": 8.8,
-      "age_rating": "R-17",
-      "duration": "23 мин.",
-      "episodes_list": [
-        {
-          "id": 1,
-          "title": "Рёмен Сукуна",
-          "description": "Юдзи Итадори попадает в мир магических проклятий.",
-          "kodik_link": "https://kodik.info/serial/67890/mnopqr345678/720p",
-          "duration": "23:55",
-          "quality": ["720p", "1080p"],
-          "dubbing": ["Русская", "Японская"],
-          "subtitles": true
-        }
-      ]
+        "id": 2,
+        "title": "Атака титанов",
+        "description": "Человечество ведет борьбу за выживание против гигантских существ, известных как титаны.",
+        "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        "rating": 9.0,
+        "year": 2013,
+        "genre": ["Экшен", "Драма", "Фэнтези"],
+        "episodes": 75,
+        "video_url": "https://example.com/videos/aot.mp4"
+    },
+    {
+        "id": 3,
+        "title": "Магическая битва",
+        "description": "Студент Юджи Итадори присоединяется к тайной организации магов, чтобы уничтожить проклятие.",
+        "poster": "https://images.unsplash.com/photo-1541562232579-512a21360020?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        "rating": 8.6,
+        "year": 2020,
+        "genre": ["Экшен", "Сверхъестественное", "Триллер"],
+        "episodes": 24,
+        "video_url": "https://example.com/videos/jjk.mp4"
+    },
+    {
+        "id": 4,
+        "title": "Ван Пис",
+        "description": "Монки Д. Луффи и его команда пиратов ищут величайшее сокровище Ван Пис.",
+        "poster": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        "rating": 8.7,
+        "year": 1999,
+        "genre": ["Экшен", "Приключения", "Комедия"],
+        "episodes": 1000,
+        "video_url": "https://example.com/videos/onepiece.mp4"
+    },
+    {
+        "id": 5,
+        "title": "Демон-убийца",
+        "description": "Танджиро Камадо становится убийцей демонов, чтобы отомстить за свою семью и исцелить сестру.",
+        "poster": "https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        "rating": 8.8,
+        "year": 2019,
+        "genre": ["Экшен", "Сверхъестественное", "Драма"],
+        "episodes": 44,
+        "video_url": "https://example.com/videos/demonslayer.mp4"
+    },
+    {
+        "id": 6,
+        "title": "Моя геройская академия",
+        "description": "Идзуку Мидория, рожденный без сверхспособностей, мечтает стать величайшим героем.",
+        "poster": "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        "rating": 8.4,
+        "year": 2016,
+        "genre": ["Экшен", "Комедия", "Школа"],
+        "episodes": 113,
+        "video_url": "https://example.com/videos/mha.mp4"
     }
-  ]
-}
+]
