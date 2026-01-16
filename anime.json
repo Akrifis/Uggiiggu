@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "last_updated": "2023-10-15T14:30:00Z",
+    "total_anime": 6,
+    "total_episodes": 250,
+    "version": "1.0",
+    "author": "Ваше имя",
+    "description": "Каталог аниме для сайта AnimeHub"
+  },
+  "anime_list": [
+    {
+      "id": 1,
+      "title": "Атака на Титанов",
+      "original_title": "Shingeki no Kyojin",
+      "description": "Человечество живёт в городах, окружённых тремя гигантскими стенами, защищающими их от титанов — огромных существ, пожирающих людей.",
+      "poster": "https://example.com/posters/attack-on-titan.jpg",
+      "year": 2013,
+      "seasons": 4,
+      "episodes": 75,
+      "status": "Завершён",
+      "type": "TV Сериал",
+      "studio": "Wit Studio, MAPPA",
+      "genre": ["Экшен", "Драма", "Фэнтези", "Сёнэн"],
+      "rating": 9.0,
+      "age_rating": "R-17",
+      "duration": "24 мин.",
+      "episodes_list": [
+        {
+          "id": 1,
+          "title": "К вам, 2000 лет спустя",
+          "description": "Эрен Йегер живёт в городе, защищённом гигантскими стенами от титанов.",
+          "kodik_link": "https://kodik.info/serial/12345/abcdef123456/720p",
+          "duration": "23:45",
+          "quality": ["720p", "1080p"],
+          "dubbing": ["Русская", "Японская"],
+          "subtitles": true
+        },
+        {
+          "id": 2,
+          "title": "В тот день",
+          "description": "После разрушения стены титаны врываются в город.",
+          "kodik_link": "https://kodik.info/serial/12345/ghijkl789012/720p",
+          "duration": "24:10",
+          "quality": ["720p", "1080p"],
+          "dubbing": ["Русская", "Японская"],
+          "subtitles": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Магическая битва",
+      "original_title": "Jujutsu Kaisen",
+      "description": "Юдзи Итадори вступает в таинственный мир магов-экзорцистов после того, как съедает палец проклятия.",
+      "poster": "https://example.com/posters/jujutsu-kaisen.jpg",
+      "year": 2020,
+      "seasons": 2,
+      "episodes": 47,
+      "status": "Онгоинг",
+      "type": "TV Сериал",
+      "studio": "MAPPA",
+      "genre": ["Экшен", "Сверхъестественное", "Драма", "Сёнэн"],
+      "rating": 8.8,
+      "age_rating": "R-17",
+      "duration": "23 мин.",
+      "episodes_list": [
+        {
+          "id": 1,
+          "title": "Рёмен Сукуна",
+          "description": "Юдзи Итадори попадает в мир магических проклятий.",
+          "kodik_link": "https://kodik.info/serial/67890/mnopqr345678/720p",
+          "duration": "23:55",
+          "quality": ["720p", "1080p"],
+          "dubbing": ["Русская", "Японская"],
+          "subtitles": true
+        }
+      ]
+    }
+  ]
+}
